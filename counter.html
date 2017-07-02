@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <style type="text/css">
+        h1 { 
+            /*position:absolute;*/
+            /*left:40%;*/
+            font-size:350px;
+            text-align:center;
+            margin: auto;
+        }
+    </style>
+    
+    <body>
+        <h1 id="timer"></h1>
+    </body>
+    
+    <script>
+    function counter(test){test++; return test}
+
+    function initTimer(id, test) {
+        var timer = document.getElementById(id);
+        var timerRepeat = setInterval(function() {
+        test = counter(test);
+        if (timer.style.color == "blue") {
+            timer.style.color = "red";
+        } else {
+            timer.style.color = "blue";
+        }
+        timer.innerHTML = counter(test);
+        }, 1000);
+    }
+    
+    initTimer("timer", 0)
+    </script>
+    
+</html>
