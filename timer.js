@@ -1,4 +1,4 @@
-var stopDate = Date.parse("2017-07-15");
+var stopDate = Date.parse("2017-07-24");
 
 function getDateDifferenz() {
     var timeNow = new Date();
