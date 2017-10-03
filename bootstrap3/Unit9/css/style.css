@@ -1,120 +1,73 @@
-* {
-	box-sizing: border-box;
-	font-family: "Tahoma", "Sans-serif";
-}
-
-.content {
-	max-width: 930px;
-	position: relative;
-	margin:auto;
-}
+/*border: red dotted 1px;*/
 
 .header {
+	font-size: 24px;
 	margin-top: 120px;
 }
-.header * {
+
+.header span {
 	display: block;
-	text-align: center;
-	font-size: 24px;
-	font-weight: 400;
-	color: #000000;
-	line-height: 1.5;
+	line-height: 1.5
 }
 
-.header strong {
-	font-weight: bold;
-	text-transform: uppercase;
+.main-content {
+	margin-top: 85px;
 }
 
-.main  {
-	 text-align: center;
-	 margin: auto;
+.main-content .video {
+	margin-bottom: 30px; 
 }
 
-.main .video, .form {
- display: inline-block;
- vertical-align: top;
- margin-top: 85px;
-}
-
-.form {
+.my_form {
 	border: 5px solid #2727d9;
-	height: 306px;
-	width: 351px; 
- margin-left: 28px;
+	height: 308px; 
 }
 
 .form-header {
 	font-size: 20px;
- font-weight: 300;
- margin: 35px; 
+ font-weight: 900;
+ margin: 32px; 
 }
 
-.form input {
-	padding: 17px;
+.my_form input {
 	margin-bottom: 10px;
-	width: 297px;	
 	height: 49px;
-	border: 1px solid #333333;
 	font-size: 18px;
- color: rgb(153,153,153);
-}
+ } 
 
-.form-button {
-	width: 296px;
-	height: 64px;
-	border: 5px solid #2727d9;
-	background-color: #2727d9;
-}
-
-.form-button span {
-	font-size: 18px;
- color: rgb(255,255,255);		
-}
-
-.center {
-	text-align: center;
-	margin-top: 147px;
-}
-
-.center h2 {
+.feature-header {
 	font-size: 24px;
 	font-weight: 300;
 	text-transform: uppercase;
+	margin-top: 147px;  
 }
 
-.center div {
-	display: inline-block;
-	padding: 20px 50px;
+.img-box {
+	height: 120px;
+	margin: 5px;
 }
 
-.center p {
-	width: 122px;
-	height: 34px;
- color: #333333;
+.feature p {
  font-size: 16px;
- font-weight: 700;	
+ font-weight: 700;
+ margin-top: 15px;	
 }
 
-.center .form-button {
-	display: block;
-	margin: 95px auto;
-
+.my-button2 {
+	margin: 25px;
 }
 
-.clients {
-	text-align: center;
-	margin-top: 6px;
-	margin-bottom: 100px; 
-}
-
-.clients h2 {
- color: #333333; 
+.clients h2 { 
  font-size: 24px;
  font-weight: 700;
  text-transform: uppercase;
+ margin: 80px 0; 
 }
 
 .pictures img {
 	padding: 5px;
+}
+
+.section {
+	margin-bottom: 100px; 
 }
