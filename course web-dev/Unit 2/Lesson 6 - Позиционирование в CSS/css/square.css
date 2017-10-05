@@ -1,0 +1,12 @@
+.square {
+	width: 300px;
+	height: 400px;
+	background-color: #fff;
+	border: 2px solid #808080;
+	position: absolute;
+	padding: 20px 30px;
+	left: 50%;
+	margin-left: -150px;
+	top:50%;
+	margin-top: -200px;
+}

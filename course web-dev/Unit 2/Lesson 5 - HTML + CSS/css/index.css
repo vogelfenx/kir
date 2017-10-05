@@ -1,0 +1,44 @@
+.table {
+	display: inline-block;
+	width: 25%;
+	padding: 20px;
+	border-radius: 10%;
+	border-style: groove;
+	border-color: blue;
+	background-color: rgba(0,255,0,0.1) 
+}
+
+.lineThrough {
+	text-decoration: line-through;
+	text-decoration-style: double; 
+}
+
+.spaces	{
+	height: 50px;
+}
+
+body {
+	text-align: center;
+	padding: 50px;
+}
+
+div p {
+	background-color: rgba(0,0,255,0.1);
+	padding: 5px;
+	border-radius: 5%;
+}
+
+h1 {
+	font-style: italic;
+}
+
+a {
+	font-weight: bold;
+	font-size: 120%;
+}
+ul {
+	display: inline-block;
+}
+h3 {
+	text-decoration: underline overline;
+}
