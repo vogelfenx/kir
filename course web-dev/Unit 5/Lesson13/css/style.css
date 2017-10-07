@@ -1,0 +1,79 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: #ebf4f4;
+}
+.content {
+  width: 570px;
+  height: 570px;
+  text-align: center;
+}
+.content .form {
+  background-color: #fff;
+  margin-top: 20px;
+  margin: 95px 123px 98px 123px;
+  width: 324px;
+  height: 377px;
+  border: 1px solid #cfdede;
+}
+.content .form .inputs {
+  position: relative;
+  bottom: 15px;
+}
+.content .form .inputs .header {
+  position: relative;
+  margin-bottom: 34px;
+  margin-left: 30px;
+  width: 150px;
+  height: 25px;
+  background-color: #01b3b3;
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.24) 0%, rgba(255, 255, 255, 0.24) 100%);
+}
+.content .form .inputs .header p {
+  padding: 7px 9px 8px 13px;
+  color: #ffffff;
+  font-family: "Arial - Bold MT";
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 12px;
+  letter-spacing: -0.12px;
+  text-transform: uppercase;
+}
+.content .form .inputs .label p {
+  font-family: "Arial";
+  font-size: 12px;
+  font-weight: bold;
+  text-align: left;
+  margin-left: 31px;
+}
+.content .form .inputs .label span {
+  color: #01b3b3;
+  font-size: 13px;
+}
+.content .form .inputs .label input {
+  width: 264px;
+  height: 34px;
+  background-color: #ebf4f4;
+  border: none;
+  padding: 11px;
+  font-family: "Arial MT";
+  font-size: 12px;
+  margin-bottom: 0px;
+}
+.content .form button {
+  position: relative;
+  bottom: -15px;
+  width: 259px;
+  height: 48px;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2), inset 0 1px 2px #ffffff;
+  border: 1px solid #dcdcdc;
+  background-color: #01b3b3;
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.24) 0%, rgba(255, 255, 255, 0.24) 100%);
+}
+.content .form button p {
+  color: #fff;
+  font-family: "Arial - Bold MT";
+  font-size: 16px;
+  text-transform: uppercase;
+}
