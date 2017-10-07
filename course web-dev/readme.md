@@ -17,4 +17,5 @@
   * [Lesson 11](https://github.com/vogelfenx/kir/tree/master/course%20web-dev/Unit%204/Lesson%2011%20-%20%D0%A1%D0%BD%D0%B8%D0%BF%D0%BF%D0%B5%D1%82%D1%8B%20%2B%20Emmet) - Сниппеты и плагин emmet для Sublime Text
 * [Unit 5]()
   * [Lesson 13](https://vogelfenx.github.io/kir/course%20web-dev/Unit%205/Lesson13/) - Perfect Pixel
+  * [Praxis Project 1](https://github.com/vogelfenx/kir/tree/master/course%20web-dev/Unit%205/Praxis)
 
