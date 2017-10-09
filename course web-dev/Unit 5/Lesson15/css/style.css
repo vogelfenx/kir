@@ -50,8 +50,8 @@ h2 {
 }
 
 
-.button-one, .botton-one-cover {
-	position:relative;
+.button-one {
+	display: inline-block;
 	border: none;
 	font-weight: 700;
 	font-size: 14px;
@@ -63,7 +63,7 @@ h2 {
  transition: 0.5s;
  z-index: 1;
 }
-.button-two, .botton-two-cover {
+.button-two {
 	display: inline-block;
  color: white;
  padding: .5em 2em;
@@ -76,37 +76,17 @@ h2 {
  transition: 0.4s;
 }
 
-.my_button {
-	position: relative;
-	display: inline-block;
-}
 
-.botton-one-cover {
-	position: absolute;
-	bottom: 0px;
-	opacity:0.0;
-	border-radius: 3px;
-	width:3.4rem;
-	height: 1.1rem;
-	}
-
-.botton-one-cover:hover {
-	opacity:0.5;
-	background-color:#000;
-}
-
-.botton-two-cover {;
-	position: absolute;
-	bottom: 0;
-	left: 0;
-	width: 2.6rem;
-	height: 1.2rem;
-	border:0;
-	opacity:0
-}
-
-.botton-two-cover:hover {
-	opacity:0.5;
+.cover {
+	display:inline-block;
 	background: #000;
+	border-radius: 8px;
+}
+.cover:hover .button-one {
+	opacity: .5;
+}
+
+.cover:hover .button-two {
+	opacity: .5;
 }
 
