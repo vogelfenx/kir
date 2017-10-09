@@ -9,11 +9,10 @@
     <link href="css/style.css" rel="stylesheet">	
   </head>
   <body>
-		<main>
+		<main class="main">
 			<div class="container test">
-
-			<!-- HEADER -->
-			<div class="row test">
+				<!-- HEADER -->
+				<div class="row test">
 					<div class="header">
 
 						<!-- logo -->
@@ -30,15 +29,47 @@
 						<div class="col-lg-3 test">
 							<div class="wrap">
 								<div class="wrap-block">
-									<button class="button header-btn">получить консультацию</button>
+									<button class="button button-header">получить консультацию</button>
 								</div>
 							</div> 
 						</div>
 
 					</div>
+				</div>
+				<!-- Main Content -->
+				<div class="row main-content">
+					<!-- Заголовок -->
+					<div class="col-lg-5">
+						<h1 class="main-header">Автоматизированная штукатурка стен</h1>
+						<p class='main-header-subtitle'>	Идеально ровные стены <br> в кратчайшие сроки</p>
+						<!-- заметка в зеленом: стоимость работ от 300 руб -->
+						<div class="main-green-label">
+							<p>Стоимость работ <br>
+								от <strong>300</strong> руб/м<sup>2</sup>
+							</p>
+						</div>
+						<!-- оплата по факту -->
+						<div class="main-condition"><strong>Оплата по факту!</strong></div>
+					</div>
+					<!-- Форма -->
+					<div class="col-lg-offset-3 col-lg-4">
+						<form class="main-form" action="#">
+							<p class="main-form-header">Для рассчета точной стоимости <br>
+									закажите <strong>выезд замерщика</strong> 
+							</p>
+							<label for="#">Ваше имя</label>
+							<input type="text">
+							<label for="#">Номер телефона</label>
+							<input type="text">
+							<button class="button button-form">Оставить заявку</button>
+							<div class="main-form-reference"><p>Подарок в день обращения*</p></div>
+						</form>
+						<div class="main-reference">
+								<small>* - выезды на замер осуществляются <br> в рабочие дни Пн-Пт с 9:00 до 18:00</small>
+						</div>
+					</div>
+				</div>
 			</div>
-
-		</div>
 		</main>
   </body>
 </html>
