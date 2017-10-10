@@ -45,11 +45,20 @@
 		@green: #70c849;
 		@border-color: #dddddd;
 
-
 /*Basic setting*/
 html {
 	font-size: 10px;
 }
+
+input, button, a {
+	&:focus{
+		outline: none;
+	}
+}
+a:hover{
+	text-decoration: none;
+}
+
 
 // for test only
 // .test {
@@ -146,6 +155,7 @@ html {
 	display: inline-block;
 	height: 7rem;
 	line-height: 7rem;
+	text-align: right;
 	.bold(2rem);
 }
 
@@ -165,6 +175,7 @@ html {
 		color: @light;
 		border-radius: 8px;
 		border: none;
+		transition:all 0.2s;
 		&-header {
 				text-transform: uppercase;
 				padding: 1rem 3rem;
@@ -174,5 +185,34 @@ html {
 				width: 100%;
 				padding: 2.7rem 5.5rem;
 				text-transform: uppercase;
+	}
+	&:hover {
+		cursor: pointer;
+		background-color: darken(@btn-color, 10%);
+	}
+}
+
+@media (max-width: 992px) {
+	* {
+			text-align: center;
+	}
+
+	.main {
+		background-position: top right;
+	}
+	.main-content {
+		margin-top:4rem;
+	}
+	.main-form	{
+		margin-top:3rem;
+	}
+}
+
+@media (max-width: 767px) {
+	.wrap-block, .phone {
+		text-align: center;
+	}
+	.main-form {
+		text-align:center;
 	}
 }

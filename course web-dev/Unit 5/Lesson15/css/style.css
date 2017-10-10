@@ -81,6 +81,7 @@ h2 {
 	display:inline-block;
 	background: #000;
 	border-radius: 8px;
+	z-index:0;
 }
 .cover:hover .button-one {
 	opacity: .5;
@@ -88,5 +89,6 @@ h2 {
 
 .cover:hover .button-two {
 	opacity: .5;
+	z-index:-1;
 }
 

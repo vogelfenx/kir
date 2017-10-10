@@ -17,6 +17,14 @@
 html {
   font-size: 10px;
 }
+input:focus,
+button:focus,
+a:focus {
+  outline: none;
+}
+a:hover {
+  text-decoration: none;
+}
 .main {
   padding-top: 3rem;
   padding-bottom: 5rem;
@@ -122,6 +130,7 @@ html {
   display: inline-block;
   height: 7rem;
   line-height: 7rem;
+  text-align: right;
   font-family: 'ProximaNova_Bold', sans-serif;
   font-size: 2rem;
   color: #292929;
@@ -141,6 +150,7 @@ html {
   color: #ffffff;
   border-radius: 8px;
   border: none;
+  transition: all 0.2s;
 }
 .button-header {
   text-transform: uppercase;
@@ -151,4 +161,31 @@ html {
   width: 100%;
   padding: 2.7rem 5.5rem;
   text-transform: uppercase;
+}
+.button:hover {
+  cursor: pointer;
+  background-color: #d09300;
+}
+@media (max-width: 992px) {
+  * {
+    text-align: center;
+  }
+  .main {
+    background-position: top right;
+  }
+  .main-content {
+    margin-top: 4rem;
+  }
+  .main-form {
+    margin-top: 3rem;
+  }
+}
+@media (max-width: 767px) {
+  .wrap-block,
+  .phone {
+    text-align: center;
+  }
+  .main-form {
+    text-align: center;
+  }
 }
