@@ -2,7 +2,7 @@
   width:50%;
 }
 
-.close:hover, .close:focuс {
+.close:hover, .close:focus {
   color:red;
   font-size: 300%;
 }
