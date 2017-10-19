@@ -219,6 +219,9 @@ section {
   display: block;
   margin: 0 auto;
 }
+.features-slider {
+  z-index: -1;
+}
 .slick-active {
   outline: none;
 }
