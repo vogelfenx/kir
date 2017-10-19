@@ -58,9 +58,9 @@
 									закажите <strong>выезд замерщика</strong> 
 							</p>
 							<label for="#">Ваше имя</label>
-							<input type="text">
+							<input type="text" placeholder="Ваше имя">
 							<label for="#">Номер телефона</label>
-							<input type="text">
+							<input type="text" placeholder="Ваш номер телефона">
 							<button class="button button-form">Оставить заявку</button>
 							<div class="main-form-reference"><p>Подарок в день обращения*</p></div>
 						</form>
@@ -72,6 +72,30 @@
 			</div>
 		</main>
 
+		<!-- modal windows -->
+		<div class="popup">
+			<div class="popup-dialog">
+				<div class="popup-content">
+					<button class="popup-close">&times;</button>
+					<h4 class="popup-header">Заинтересовало?</h4>
+					<p>Оставьте контактные данные <br>для связи</p>
+					<div class="popup-form">
+						<form action="#" class="main-form">
+							<label for="#">Ваше имя</label>
+							<input type="text" placeholder="Ваше имя">
+							<label for="#">Номер телефона</label>
+							<input type="text" placeholder="Ваш номер телефона">
+							<label for="#">Сообщение</label>
+							<textarea rows="5"></textarea>
+							<button class="button button-form popup-button">Оставить заявку</button>							
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+		<!-- block with slider inside -->
 		<section class="features">
 			<div class="container">
 				<h2 class="section-header">
@@ -132,6 +156,17 @@
 		<script src="slick/slick.min.js"></script>
 		<script>
     $(document).ready(function(){
+    	/*script for modal-window*/
+    		$('.button-header').on('click', function(event) {
+	    			event.preventDefault();
+	    			$('.popup').fadeIn('fast', function() {});
+    		});
+
+    		$('.popup-close').on('click', function(event) {
+		    		event.preventDefault();
+		    		$('.popup').fadeOut('fast', function() {});
+    		});
+    	/*scripts for slider*/
       $('.features-slider').slick({
         // arrows:true,
         infinite: true,
