@@ -219,9 +219,6 @@ section {
   display: block;
   margin: 0 auto;
 }
-.features-slider {
-  z-index: -1;
-}
 .slick-active {
   outline: none;
 }
@@ -255,6 +252,7 @@ section {
   width: 100%;
   height: 100%;
   background-color: rgba(0, 0, 0, 0.5);
+  z-index: 9999;
 }
 .popup-content {
   position: fixed;
